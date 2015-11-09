@@ -55,9 +55,3 @@ To tinker with the code on your own:
 2. run `npm install` to get all the dev dependencies (required to run tests)
 
 Code for the `FIXME` module is located within \*.js files tests are inside test/* folder.
-
-
-### Todo
-
- - [x] Check support for Node.js environment
- - [ ] Check support for browser environment
