@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "test:dev": "mocha -R min --watch",
-    "test:cov": "istanbul cover _mocha"
+    "test:cov": "istanbul cover _mocha",
+    "prepublish": "mkdir -p dist && browserify index.js | uglifyjs -c -m > dist/fixme.js"
   },
   "repository": {
     "type": "git",
