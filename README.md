@@ -40,3 +40,8 @@ For each of this calls, `opts` is an optional object argument of options.
 Currently supported options:
 
  - `skipProd`: If true, throwing an error is skipped in production environments - determined via `process.env.NODE_ENV`. *(default: `true`)*
+
+### Things to consider
+
+The `FIXME` label is evaluated at runtime, therefore it's call takes some execution time. Based on my simple benchmark with 1M calls, one call takes about 50 µs (0.05 ms) if the exception is thrown or 2 µs (0.002 ms) just to make the check. To some it might not seem like a lot, but it has the potential make a significant impact on performance.
+
