@@ -37,10 +37,10 @@ function checkDate(opts) {
 /**
  * Set FIXME mark which will throw an error if a fix is overdue.
  * Possible calls:
- * 	- `FIXME("[date]:[label]"[, opts])`: a single string argument of date and time, split by a `:`.
- * 	- `FIXME("[date]", "[label]"[, opts])`: date string and label, each it's own argument.
- * 	- `FIXME([date], "[label]"[, opts])`: date object and label, each it's own argument.
- * 	With each call, last argument is options, which is optional.
+ *   - `FIXME("[date]:[label]"[, opts])`: a single string argument of date and time, split by a `:`.
+ *   - `FIXME("[date]", "[label]"[, opts])`: date string and label, each it's own argument.
+ *   - `FIXME([date], "[label]"[, opts])`: date object and label, each it's own argument.
+ *   With each call, last argument is options, which is optional.
  */
 function FIXME() {
   var defaultOpts, opts;
