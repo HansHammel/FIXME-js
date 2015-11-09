@@ -1,0 +1,28 @@
+{
+  "name": "FIXME-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:dev": "mocha -R min --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markogresak/FIXME-js.git"
+  },
+  "keywords": [],
+  "author": "Marko Gresak <marko@gresak.io> (http://gresak.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markogresak/FIXME-js/issues"
+  },
+  "homepage": "https://github.com/markogresak/FIXME-js#readme",
+  "devDependencies": {
+    "babel-core": "^6.1.2",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  }
+}
