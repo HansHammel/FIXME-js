@@ -1,4 +1,4 @@
-# FIXME-js
+# FIXME-js [![Build Status](https://travis-ci.org/markogresak/FIXME-js.svg?branch=master)](https://travis-ci.org/markogresak/FIXME-js)
 
 FIXME label that will remind you to go back and fix it.
 
