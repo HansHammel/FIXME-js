@@ -1,13 +1,13 @@
-# FIXME-js [![Build Status](https://travis-ci.org/markogresak/FIXME-js.svg?branch=master)](https://travis-ci.org/markogresak/FIXME-js) [![Test Coverage](https://codeclimate.com/github/markogresak/FIXME-js/badges/coverage.svg)](https://codeclimate.com/github/markogresak/FIXME-js/coverage)
+# [FIXME-js](https://www.npmjs.com/package/fixme-js) [![Build Status](https://travis-ci.org/markogresak/FIXME-js.svg?branch=master)](https://travis-ci.org/markogresak/FIXME-js) [![Test Coverage](https://codeclimate.com/github/markogresak/FIXME-js/badges/coverage.svg)](https://codeclimate.com/github/markogresak/FIXME-js/coverage)
 
 FIXME label that will remind you to go back and fix it.
 
-Idea based on [fixme for ruby](https://github.com/henrik/fixme).
+Idea inspired by [fixme for ruby](https://github.com/henrik/fixme).
 
 
 ## Usage
 
-First, you will have to install the module.
+First, you will have to install the module via npm.
 
 ``` bash
 npm install fixme-js
@@ -28,7 +28,7 @@ FIXME('12/31/1999: Close doors of cryogenic pods.');
 <script>FIXME('12/31/1999: Close doors of cryogenic pods.');</script>
 ```
 
-And when current date will be past the current date, it will throw an error like this:
+And when current date will be past the set date, it will throw an error like this:
 
 ```
 FIXME::UnfixedError: Fix by 12/31/1999: Close doors of cryogenic pods.
@@ -48,7 +48,7 @@ Currently supported options:
 
  - `skipProd`: If true, throwing an error is skipped in production environments - determined via `process.env.NODE_ENV`. *(default: `true`)*
 
-### Things to consider
+### Things to consider (i.e. performance)
 
 The `FIXME` label is evaluated at runtime, therefore it's call takes some execution time. Based on my simple benchmark with 1M calls, one call takes about 50 µs (0.05 ms) if the exception is thrown or 2 µs (0.002 ms) just to make the check. To some it might not seem like a lot, but it has the potential make a significant impact on performance.
 
