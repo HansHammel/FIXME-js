@@ -13,12 +13,19 @@ First, you will have to install the module.
 npm install fixme-js
 ```
 
-Next, to use it in your javascript files:
+#### In Node.js
 
 ``` js
 var FIXME = require('fixme-js');
 // ...
 FIXME('12/31/1999: Close doors of cryogenic pods.');
+```
+
+#### In browsers
+
+``` html
+<script src="[path/to/node_modules]/fixme-js/dist/fixme.js"></script>
+<script>FIXME('12/31/1999: Close doors of cryogenic pods.');</script>
 ```
 
 And when current date will be past the current date, it will throw an error like this:
