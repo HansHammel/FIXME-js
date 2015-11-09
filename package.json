@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/markogresak/FIXME-js#readme",
   "devDependencies": {
-    "babel-core": "^6.1.2",
     "chai": "^3.4.1",
     "mocha": "^2.3.3",
     "sinon": "^1.17.2",
