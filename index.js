@@ -75,4 +75,14 @@ function FIXME() {
   checkDate(opts);
 }
 
-module.exports = FIXME;
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+  module.exports = FIXME;
+}
+if (typeof define === 'function' && define.amd) {
+  define([], function () {
+    return FIXME;
+  });
+}
+if (typeof window !== 'undefined') {
+  window.FIXME = FIXME;
+}
