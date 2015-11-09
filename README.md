@@ -45,3 +45,19 @@ Currently supported options:
 
 The `FIXME` label is evaluated at runtime, therefore it's call takes some execution time. Based on my simple benchmark with 1M calls, one call takes about 50 µs (0.05 ms) if the exception is thrown or 2 µs (0.002 ms) just to make the check. To some it might not seem like a lot, but it has the potential make a significant impact on performance.
 
+## Contributing
+
+If you spotted a bug or have an idea for improvement, let me know under issues section.
+
+To tinker with the code on your own:
+
+1. clone the repository
+2. run `npm install` to get all the dev dependencies (required to run tests)
+
+Code for the `FIXME` module is located within \*.js files tests are inside test/* folder.
+
+
+### Todo
+
+ - [x] Check support for Node.js environment
+ - [ ] Check support for browser environment
