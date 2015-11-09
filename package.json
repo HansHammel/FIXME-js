@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "test:dev": "mocha -R min --watch"
+    "test:dev": "mocha -R min --watch",
+    "test:cov": "istanbul cover _mocha"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/markogresak/FIXME-js#readme",
   "devDependencies": {
     "chai": "^3.4.1",
+    "istanbul": "^0.4.0",
     "mocha": "^2.3.3",
     "sinon": "^1.17.2",
     "sinon-chai": "^2.8.0"
