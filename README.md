@@ -1,4 +1,4 @@
-# FIXME-js [![Build Status](https://travis-ci.org/markogresak/FIXME-js.svg?branch=master)](https://travis-ci.org/markogresak/FIXME-js)
+# FIXME-js [![Build Status](https://travis-ci.org/markogresak/FIXME-js.svg?branch=master)](https://travis-ci.org/markogresak/FIXME-js) [![Test Coverage](https://codeclimate.com/github/markogresak/FIXME-js/badges/coverage.svg)](https://codeclimate.com/github/markogresak/FIXME-js/coverage)
 
 FIXME label that will remind you to go back and fix it.
 
